@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Page title</title>
+    <link rel="stylesheet" href="./sass/index.scss" />
+    <script type="module" src="./index.js"></script>
+    <!-- Include Handlebars from a CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/handlebars@latest/dist/handlebars.js"></script>
+    <!-- <script>
+      // compile the template
+      var template = Handlebars.compile('Handlebars <b>{{doesWhat}}</b>');
+      // execute the compiled template and print the output to the console
+      console.log(template({ doesWhat: 'rocks!' }));
+    </script> -->
+  </head>
+
+  <body>
+    <!-- ❗️❗️❗️ Add partials like so for every page -->
+    <!-- <include src="посилання на необхідний файл"></include> -->
+    <div id="app"></div>
+    <script src="./index.js"></script>
+  </body>
+</html>
